@@ -1,0 +1,11 @@
+name: app1
+version: v1beta1
+kind: Spicepod
+metadata:
+  app: phillip-app
+
+datasets:
+  - from: datasets/eth.recent_blocks
+
+dependencies:
+  - pod1

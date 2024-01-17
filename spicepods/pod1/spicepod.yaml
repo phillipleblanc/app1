@@ -1,0 +1,6 @@
+name: pod1
+version: v1beta1
+kind: Spicepod
+
+datasets:
+  - from: datasets/eth.recent_transactions

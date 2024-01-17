@@ -1,0 +1,7 @@
+name: eth.recent_transactions
+description: My dataset
+type: append
+firecache:
+  enabled: true
+  trigger: number
+  time_column: timestamp
